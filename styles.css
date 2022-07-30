@@ -1,0 +1,59 @@
+body{
+    background-color: blueviolet;
+}
+header{
+    margin-bottom: 50px;
+}
+.galeria img {
+    width: 180px;
+    height: 180px;
+}  
+
+.galeria div{
+    background-color: thistle;
+    border-radius: 35px;
+    width: 23%;
+    text-align: center;
+    margin: 10px;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    font-family: "pokemon";
+    font-size: 100px;
+    margin: 0
+}
+h3{
+    font-family: "fontPoke";
+}
+@font-face {
+    font-family: "pokemon";
+    src: url(./assets/Pokemon\ Solid.ttf);
+}
+@font-face {
+    font-family: "fontPoke";
+    src: url(./assets/Pokemon\ Classic.ttf);
+}
+.PADRE {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.PADRE div{
+display: flex;
+align-items: center;
+}
+.hijo{
+    background-color: thistle;
+    border-radius: 35px;
+    width: 23%;
+    text-align: center;
+    margin: 10px; 
+}
+.hijo img {
+    width: 180px;
+    height: 180px;
+}  
